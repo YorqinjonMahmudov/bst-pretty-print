@@ -6,6 +6,7 @@ import java.io.OutputStreamWriter;
 public class Node<T extends Comparable<T>> {
 
     T value;
+
     Node<T> left, right;
 
     public void insertToTree(T v) {
